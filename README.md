@@ -60,49 +60,49 @@ Below is a breakdown of prominent commercial SaaS and hosted macOS cloud backup 
 
 The open-source ecosystem provides powerful, self-hosted, zero-knowledge encrypted solutions for Apple macOS. The list is sorted in descending order by GitHub stargazer count.
 
-### 1. [Rclone](https://github.com/rclone/rclone) [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
+### 1. [Rclone](https://github.com/rclone/rclone) [![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
 - **Repository:** [rclone/rclone](https://github.com/rclone/rclone)
 - **Language / Tech Stack:** Go / CLI
 - **License:** MIT License
 - **Key Features:** Known as *"the Swiss army knife of cloud storage"*; supports synchronization, snapshotting, and encrypted mounting of 70+ cloud storage backends (AWS S3, Backblaze B2, Google Cloud Storage, WebDAV, SFTP, OneDrive) natively on macOS via Homebrew or universal binary.
 
-### 2. [Restic](https://github.com/restic/restic) [![GitHub stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers)
+### 2. [Restic](https://github.com/restic/restic) [![GitHub_Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers)
 - **Repository:** [restic/restic](https://github.com/restic/restic)
 - **Language / Tech Stack:** Go / CLI
 - **License:** BSD 2-Clause License
 - **Key Features:** Secure and ultra-fast client-side AES-256 encrypted backups, deduplication, point-in-time snapshots, and native support for macOS `launchd` automation with local, SFTP, or S3 cloud destinations.
 
-### 3. [osquery](https://github.com/osquery/osquery) [![GitHub stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers)
+### 3. [osquery](https://github.com/osquery/osquery) [![GitHub_Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers)
 - **Repository:** [osquery/osquery](https://github.com/osquery/osquery)
 - **Language / Tech Stack:** C++ / CLI & Daemon
 - **License:** Apache-2.0 License
 - **Key Features:** Exposes the macOS operating system as a high-performance relational database. Allows querying running Mac processes, kernel extensions, hardware events, active network connections, and security policy adherence with standard SQL.
 
-### 4. [Duplicati](https://github.com/duplicati/duplicati) [![GitHub stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers)
+### 4. [Duplicati](https://github.com/duplicati/duplicati) [![GitHub_Stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers)
 - **Repository:** [duplicati/duplicati](https://github.com/duplicati/duplicati)
 - **Language / Tech Stack:** C# / .NET / Web UI & CLI
 - **License:** LGPL-2.1 License
 - **Key Features:** Free cross-platform cloud backup client providing AES-256 encrypted incremental backups, web-based control panel, scheduling, block-level deduplication, and direct upload to over 30 cloud storage vendors.
 
-### 5. [Kopia](https://github.com/kopia/kopia) [![GitHub stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers)
+### 5. [Kopia](https://github.com/kopia/kopia) [![GitHub_Stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers)
 - **Repository:** [kopia/kopia](https://github.com/kopia/kopia)
 - **Language / Tech Stack:** Go / CLI & Native GUI (KopiaUI)
 - **License:** Apache-2.0 License
 - **Key Features:** Fast, encrypted, deduplicated backup engine with a polished native macOS menu-bar and desktop GUI. Supports cloud storage (S3, B2, Azure, Google Cloud, SFTP), snapshot policies, and multi-user repository sharing.
 
-### 6. [BorgBackup (Borg)](https://github.com/borgbackup/borg) [![GitHub stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)
+### 6. [BorgBackup (Borg)](https://github.com/borgbackup/borg) [![GitHub_Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)
 - **Repository:** [borgbackup/borg](https://github.com/borgbackup/borg)
 - **Language / Tech Stack:** Python & C (Cython) / CLI
 - **License:** BSD 3-Clause License
 - **Key Features:** Deduplicating archiver providing authenticated encryption (AES-256, ChaCha20-Poly1305), chunk-level delta compression, and SSH offsite server targets for macOS power users and sysadmins.
 
-### 7. [Fleet](https://github.com/fleetdm/fleet) [![GitHub stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers)
+### 7. [Fleet](https://github.com/fleetdm/fleet) [![GitHub_Stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers)
 - **Repository:** [fleetdm/fleet](https://github.com/fleetdm/fleet)
 - **Language / Tech Stack:** Go / Web UI & Agent
 - **License:** MIT License (Core)
 - **Key Features:** Open-source platform for macOS fleet visibility and device management built on osquery. Enforces disk encryption, collects real-time security posture metrics, and automates Apple MDM device compliance policies.
 
-### 8. [Duplicacy](https://github.com/gilbertchen/duplicacy) [![GitHub stars](https://img.shields.io/github/stars/gilbertchen/duplicacy?style=social&color=white)](https://github.com/gilbertchen/duplicacy/stargazers)
+### 8. [Duplicacy](https://github.com/gilbertchen/duplicacy) [![GitHub_Stars](https://img.shields.io/github/stars/gilbertchen/duplicacy?style=social&color=white)](https://github.com/gilbertchen/duplicacy/stargazers)
 - **Repository:** [gilbertchen/duplicacy](https://github.com/gilbertchen/duplicacy)
 - **Language / Tech Stack:** Go / CLI & Web GUI
 - **License:** Source-available (Free for non-commercial personal CLI use)
@@ -144,7 +144,7 @@ Contributions, feedback, and pull requests are warmly appreciated! 💡
 If you maintain or discover an outstanding macOS cloud backup or endpoint protection tool:
 1. Fork this repository.
 2. Create a dedicated branch (`git checkout -b feature/cool-macos-tool`).
-3. Add your tool with verified pricing, free tier limits, star badges, and stack details.
+3. Add your tool with verified pricing, free tier limits, Stars_Badges, and stack details.
 4. Open a clear Pull Request detailing your additions.
 
 ---
@@ -161,3 +161,12 @@ Thank you for visiting and supporting this curated resource! If this project hel
 ## 📄 License
 
 This compilation is licensed under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](LICENSE) Public Domain Dedication. Listed third-party platforms and open-source projects retain their respective trademarks, copyrights, and software licenses.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Macos-Device-Cloud-Protection-Backup&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Macos-Device-Cloud-Protection-Backup_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Macos-Device-Cloud-Protection-Backup_growth.svg">
+  </picture>
+</a>
